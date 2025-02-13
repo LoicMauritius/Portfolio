@@ -16,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body style={{ ...globalStyle, ...bodyStyle }}>
+        <Header navButton={NAVBUTTONS} activeButton={NAVBUTTONS[0]} />
         {children}
       </body>
     </html>

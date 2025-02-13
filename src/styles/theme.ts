@@ -5,10 +5,11 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const ibmPlexMono = IBM_Plex_Mono({
-    variable: "--font-IBM-plex-mono",
-    subsets: ["latin"],
-    weight: "600", 
+const IBMPlexMono = IBM_Plex_Mono({
+    weight: ['400'],
+    variable: "--font-roboto-mono",
+    subsets: ['latin'],
+    display: 'swap',
 });
 
 class Theme {
@@ -34,7 +35,7 @@ class Theme {
     // 🖋️ Fonts (liées aux variables CSS)
     public readonly fonts = {
         sans: geistSans.variable,
-        mono: ibmPlexMono.variable,
+        mono: IBMPlexMono.style.fontFamily,
     };
 
     // 🔤 Tailles de texte
