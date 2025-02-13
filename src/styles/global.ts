@@ -19,5 +19,13 @@ export const bodyStyle: React.CSSProperties = {
     width: "100dvw",
     maxWidth: "100dvw",
     overflowX: "hidden",
-    height: "100%",
+    height: "100dvh",
+};
+
+export const mainStyle: React.CSSProperties = {
+    zIndex: 1,
+    display: "flex",
+    flexDirection: "column",
+    height: "70dvh",
+    width: "100%",
 };
