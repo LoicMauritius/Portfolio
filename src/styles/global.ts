@@ -3,7 +3,7 @@ import { theme } from "@/styles";
 export const globalStyle: React.CSSProperties = {
     backgroundColor: theme.colors.background,
     color: theme.colors.text,
-    fontFamily: theme.fonts.sans,
+    fontFamily: theme.fonts.mono,
     padding: 0,
     margin: 0,
     width: "100dvw",
