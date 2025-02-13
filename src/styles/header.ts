@@ -2,12 +2,18 @@ import { theme } from "./theme";
 
 export const headerStyle: React.CSSProperties = {
     boxSizing: "border-box",
-    padding: "0px 40px",
+    margin: "30px 40px",
     width: "calc(100% - 60px)", // ✅ Ajuste pour compenser les marges
     display: "flex",
     flexDirection: "row",
     borderRadius: 40,
     boxShadow: "3px 4px 4px 2px rgba(48, 51, 46, 0.20)",
+    zIndex: 10,
+    position: "fixed", 
+    top: 0, 
+    left: 0, 
+    right: 0,
+    backgroundColor: theme.colors.background,
 };
 
 export const navStyle: React.CSSProperties = {

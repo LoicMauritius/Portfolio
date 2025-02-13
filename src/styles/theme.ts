@@ -1,8 +1,9 @@
-import { Geist, IBM_Plex_Mono} from "next/font/google";
+import { IBM_Plex_Mono, Jacques_Francois} from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const jacquesFrancois = Jacques_Francois({
+    weight: ['400'],
+    variable: "--font-jacques-francois",
+    subsets: ["latin"],
 });
 
 const IBMPlexMono = IBM_Plex_Mono({
@@ -34,13 +35,13 @@ class Theme {
 
     // 🖋️ Fonts (liées aux variables CSS)
     public readonly fonts = {
-        sans: geistSans.variable,
+        jacques: jacquesFrancois.style.fontFamily,
         mono: IBMPlexMono.style.fontFamily,
     };
 
     // 🔤 Tailles de texte
     public readonly sizes = {
-        h1: "80px",
+        h1: "70px",
         h2: "48px",
         h3: "24px",
         text: "20px",
