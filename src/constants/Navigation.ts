@@ -1,0 +1,1 @@
+export const NAVBUTTONS = ["Accueil", "Web", "Mobile", "Applicatif","Contact"];
