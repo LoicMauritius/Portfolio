@@ -1,7 +1,6 @@
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return (
-    <main>
-      <h1>Portfolio Mauritius Loïc Test n°1: Déploiement en ligne</h1>
-    </main>
-  );
+  redirect("/accueil");
+  return null; // On ne retourne rien car la redirection est immédiate
 }

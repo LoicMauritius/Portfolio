@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { globalStyle, bodyStyle } from "@/styles";
+import { Header } from "@/components";
+import { NAVBUTTONS } from "@/constants";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -14,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body style={{ ...globalStyle, ...bodyStyle }}>
+        <Header navButton={NAVBUTTONS} activeButton={NAVBUTTONS[0]} />
         {children}
       </body>
     </html>
