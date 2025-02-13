@@ -1,13 +1,14 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, IBM_Plex_Mono} from "next/font/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const ibmPlexMono = IBM_Plex_Mono({
+    variable: "--font-IBM-plex-mono",
+    subsets: ["latin"],
+    weight: "600", 
 });
 
 class Theme {
@@ -33,7 +34,7 @@ class Theme {
     // 🖋️ Fonts (liées aux variables CSS)
     public readonly fonts = {
         sans: geistSans.variable,
-        mono: geistMono.variable,
+        mono: ibmPlexMono.variable,
     };
 
     // 🔤 Tailles de texte
