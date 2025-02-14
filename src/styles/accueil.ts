@@ -43,6 +43,8 @@ export const titleStyle: React.CSSProperties = {
     fontFamily: theme.fonts.jacques,
     fontSize: theme.sizes.h1,
     fontWeight: 400,
+    margin: 0,
+    paddingBottom: "20px",
 };
 
 export const subTitleStyle: React.CSSProperties = {

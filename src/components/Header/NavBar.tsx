@@ -11,7 +11,7 @@ export const NavBar = ({ navButton, activeButton }: NavBarProps) => {
         <nav style={navStyle}>
             <ul style={ulStyle}>
                 {navButton.map((button, index) => (
-                    <Link key={index} style={ button === activeButton ? buttonActiveStyle : buttonStyle} href={button === navButton[0] ? '/' : `/${button.toLowerCase()}`} passHref>
+                    <Link key={index} style={ button === activeButton ? buttonActiveStyle : buttonStyle} href={`/${button.toLowerCase()}`} passHref>
                         {button}
                     </Link>
                 ))}
