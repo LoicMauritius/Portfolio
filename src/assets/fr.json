@@ -1,10 +1,15 @@
 {
+    "accueil":{
+      "titre": "Portfolio",
+      "sous-titre": "Mauritius Loïc"
+    },
     "titres":{
+        "accueil": "Accueil",
         "web": "Développement Web",
         "mobile": "Développement mobile",
         "applicatif": "Développement Applicatif",
-        "contact": "Contact",
-        "autres": "Autres"
+        "autres": "Autres",
+        "contact": "Contact"
     },
     "projects":{
         "web": [

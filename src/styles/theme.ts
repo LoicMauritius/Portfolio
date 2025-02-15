@@ -41,7 +41,7 @@ class Theme {
 
     // 🔤 Tailles de texte
     public readonly sizes = {
-        h1: "70px",
+        h1: "75px",
         h2: "48px",
         h3: "24px",
         text: "20px",

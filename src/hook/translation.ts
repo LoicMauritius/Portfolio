@@ -1,3 +1,5 @@
+"use client"; 
+
 // useLanguageDetection.ts
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next"; // Importation de i18n

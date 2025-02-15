@@ -1,13 +1,18 @@
 "use client";
 
-import { MainTitle } from "@/components";
-import { lineStyle, mainStyle, mainTitleContainerStyle, titleStyle } from "@/styles";
+import { Header, MainTitle } from "@/components";
+import { useLanguageDetection } from "@/hook";
+import { mainStyle } from "@/styles";
 
 export default function Web() {
+    const { t } = useLanguageDetection();
     return (
-        <main style={mainStyle}>
-            <MainTitle title={"Autres"} />
-        </main>
+        <>
+            <Header />
+            <main style={mainStyle}>
+                <MainTitle title={t("titres.autres")} />
+            </main>
+        </>
     );
-  }
+}
   
