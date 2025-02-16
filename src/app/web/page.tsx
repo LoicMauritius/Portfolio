@@ -9,9 +9,6 @@ export default function Web() {
 
     const { t } = useLanguageDetection();
 
-    console.log("Type de t('projects.web'):", typeof t("projects.web"), t("projects.web"));
-    console.log("projects.web: ", t("projects.web"))
-
     const projects = t("projects.web", { returnObjects: true }) as ProjectDisplayerProps[];
 
     return (
