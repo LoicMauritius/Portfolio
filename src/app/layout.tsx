@@ -1,3 +1,4 @@
+import '@/styles/scrollbar.css';
 import { globalStyle, bodyStyle } from "@/styles";
 import type { Metadata } from "next";
 
@@ -12,7 +13,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="fr">
+    <html lang="fr" style={{overflowX: "hidden"}}>
       <body style={{ ...globalStyle, ...bodyStyle }}>
         {children} {/* Affiche les pages enfants */}
       </body>
