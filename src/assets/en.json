@@ -12,6 +12,10 @@
         "contact": "Contact"
     },
     "projects": {
+            "titres":{
+                  "description": "Project Description",
+                  "fonctionnalitées": "Fonctionnalities"
+              },
             "web": [
               {
                 "title": "Site web - Tolède",
@@ -87,7 +91,7 @@
                     "github",
                     "vscode",
                     "next",
-                    "mongodb"
+                    "mongo"
                 ],
                 "fonctionnalitees_principale": [
                     "Fast and efficient train ticket booking",

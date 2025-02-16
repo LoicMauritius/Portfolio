@@ -12,6 +12,10 @@
         "contact": "Contact"
     },
     "projects":{
+        "titres":{
+            "description": "Description  du projet",
+            "fonctionnalitées": "Fonctionnalitées"
+        },
         "web": [
           {
             "title": "Site web - Tolède",
@@ -87,7 +91,7 @@
                 "github",
                 "vscode",
                 "next",
-                "mongodb"
+                "mongo"
             ],
             "fonctionnalitees_principale": [
                 "Réservations de billet de trains rapide et efficace",
@@ -196,5 +200,5 @@
             "images": ["Pixy1.png"]
           }
         ]
-    }    
+    }
 }

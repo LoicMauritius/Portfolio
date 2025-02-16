@@ -1,6 +1,9 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
+import en from '@/assets/en.json';
+import fr from '@/assets/fr.json';
+
 i18n
   .use(initReactI18next) // Permet à react-i18next de se connecter à i18next
   .init({
@@ -15,10 +18,10 @@ i18n
     },
     resources: {
       en: {
-        translation: require('@/assets/en.json'), // Importation du fichier en.json
+        translation: en, // Importation du fichier en.json
       },
       fr: {
-        translation: require('@/assets/fr.json'), // Importation du fichier fr.json
+        translation: fr, // Importation du fichier fr.json
       },
     },
 });
