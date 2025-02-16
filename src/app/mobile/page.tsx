@@ -17,6 +17,7 @@ export default function Mobile() {
                 <MainTitle title={t("titres.mobile")} />
                 <div style={ProjectsListStyle}>
                     {projects.map((project) => <MobileProjectDisplayer 
+                        key={`mobile-${project.title}`}
                         title={project.title} 
                         description={project.description} 
                         technologies={project.technologies} 

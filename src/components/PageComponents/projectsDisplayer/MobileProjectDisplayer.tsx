@@ -4,7 +4,7 @@ import { Fonctionnalities } from "./Fonctionnalities";
 import { Technologies } from "./Technologies";
 import { ProjectContainerStyle, ProjectDisplayerStyle, ProjectMonoImageContainerStyle, titleProjectStyle } from "@/styles";
 import { ProjectDisplayerProps } from "./ProjectDisplayer";
-import { mobileProjectImagesStyle } from "@/styles/mobile";
+import { mobileProjectImagesStyle } from "@/styles";
 
 export const MobileProjectDisplayer = ({
     title,
