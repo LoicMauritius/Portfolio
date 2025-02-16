@@ -25,7 +25,7 @@
                     "Mobile and PC adaptation for smooth navigation (Responsive design)",
                     "Ability to display content in multiple languages (French/English)"
                 ],
-                "images": ["tolede1.jpg", "tolede2.jpg"]
+                "images": ["tolede1.png", "tolede2.png"]
               },
               {
                 "title": "Jeu web - LexiQuest",
@@ -45,7 +45,7 @@
                     "Integration of WebSocket in Python for a smooth multiplayer mode",
                     "Storage of played moves in a database"
                 ],
-                "images": ["lexiquest1.jpg", "lexiquest2.jpg"]
+                "images": ["lexiquest1.png", "lexiquest2.png"]
               },
               {
                 "title": "Site web - Daktari",
@@ -61,7 +61,7 @@
                     "Appointment booking system via an intuitive interface",
                     "Authentication system and restricted access based on user roles"
                 ],
-                "images": ["daktari1.jpg", "daktari2.jpg"]
+                "images": ["daktari1.png", "daktari2.png"]
               },
               {
                 "title": "Dashboard - Contrôles CNIL",
@@ -78,7 +78,7 @@
                     "Storage and updating of data retrieved from the French Government website",
                     "Intuitive web interface for easy data reading"
                 ],
-                "images": ["cnil.jpg"]
+                "images": ["controlecnil.png"]
               },
               {
                 "title": "Site web de réservation de train - FR-Reservation",
@@ -94,7 +94,7 @@
                     "Consultation, modification, and cancellation of tickets",
                     "Secure registration and login"
                 ],
-                "images": ["fr-reservation1.jpg", "fr-reservation2.jpg"]
+                "images": ["fr-reservation1.png", "fr-reservation2.png"]
               }
             ],
             "mobile": [
@@ -110,7 +110,7 @@
                     "Find nearby artisans or DIY stores",
                     "Badge and level system based on user activity"
                 ],
-                "images": ["bricoboulot1.jpg", "bricoboulot2.jpg"]
+                "images": ["bricoboulot1.png", "bricoboulot2.png"]
               },
               {
                 "title": "Application mobile - La ChillZone",
@@ -131,7 +131,7 @@
                     "PC web interface adapted to back-office needs (admin management)",
                     "Intuitive and inclusive mobile interface"
                 ],
-                "images": ["chillzone1.jpg", "chillzone2.jpg"]
+                "images": ["chillzone1.png", "chillzone2.png"]
               }
             ],
             "applicatif": [
@@ -148,7 +148,7 @@
                     "Development of an intuitive interface in Java using a university library",
                     "2D navigation and augmented reality simulation"
                 ],
-                "images": ["backpackhero1.jpg", "backpackhero2.jpg"]
+                "images": ["backpackhero1.png", "backpackhero2.png"]
               },
               {
                 "title": "Jeu vidéo - Circle war",
@@ -163,7 +163,7 @@
                     "Intersection calculations between balls and obstacles, as well as splitting a ball into two",
                     "Intuitive interface (main menu, game mode selection)"
                 ],
-                "images": ["circlewar1.jpg", "circlewar2.jpg"]
+                "images": ["circlewar1.png", "circlewar2.png"]
               }
             ],
             "autres": [
@@ -179,7 +179,7 @@
                     "Mechanism to collect balls after detection",
                     "Motor and sensor control via an Arduino microprocessor"
                 ],
-                "images": ["Pixy1.jpg"]
+                "images": ["Pixy1.png"]
               },
               {
                 "title": "Projet CI/CD avec Jenkins",
@@ -193,7 +193,7 @@
                     "Creation and configuration of Jenkins jobs for each stage of the cycle (build, test, deployment)",
                     "Monitoring pipeline logs and metrics to ensure a smooth and error-free process"
                 ],
-                "images": ["jenkins1.jpg", "jenkins2.jpg"]
+                "images": ["jenkins1.png", "jenkins2.png"]
               }
             ]
     }
