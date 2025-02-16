@@ -6,6 +6,7 @@ import { ProjectContainerStyle, ProjectDescriptionContainerStyle, ProjectDisplay
 
 export type ProjectDisplayerProps = {
     title: string;
+    pathname: string;
     description: string;
     technologies: string[];
     fonctionnalitees_principale: string[];
@@ -14,6 +15,7 @@ export type ProjectDisplayerProps = {
 
 export const ProjectDisplayer = ({
     title,
+    pathname,
     description,
     technologies,
     fonctionnalitees_principale,
@@ -26,7 +28,7 @@ export const ProjectDisplayer = ({
                     <h2 style={titleProjectStyle}>{title}</h2>
                     <div style={ProjectContainerStyle}>
                     <Image 
-                        src={`/web/${images[0]}`} 
+                        src={`/${pathname}/${images[0]}`} 
                         alt={images[0]} 
                         width={500} 
                         height={300} 
@@ -39,7 +41,7 @@ export const ProjectDisplayer = ({
                     </div>
                     <div style={ProjectContainerStyle}>
                         <Fonctionnalities fonctionnalities={fonctionnalitees_principale} />
-                        <Image src={`/web/${images[1]}`} alt={images[1]} width={500} height={300} />
+                        <Image src={`/${pathname}/${images[1]}`} alt={images[1]} width={500} height={300} />
                     </div>
                 </div>
                 :
@@ -48,7 +50,7 @@ export const ProjectDisplayer = ({
                     <div style={ProjectContainerStyle}>
                         <div style={{ width: '500px', height: 'auto' }}>
                             <Image 
-                                src={`/web/${images[0]}`} 
+                                src={`/${pathname}/${images[0]}`} 
                                 alt={images[0]} 
                                 width={500} 
                                 height={600} 
