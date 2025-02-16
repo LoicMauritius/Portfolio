@@ -40,7 +40,7 @@ export const buttonStyle: React.CSSProperties = {
     textAlign: "center", 
     fontFamily: theme.fonts.mono, 
     textDecoration: "none",
-    fontSize: theme.sizes.h3, 
+    fontSize: theme.sizes.nav, 
     color: theme.colors.text, 
     listStyle: "none", 
     cursor: "pointer",

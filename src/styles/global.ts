@@ -27,8 +27,7 @@ export const mainStyle: React.CSSProperties = {
     display: "flex",
     flexDirection: "column",
     height: "70dvh",
-    width: "100%",
-    padding: "0 135px",
+    width: "100dvw",
     boxSizing: "border-box",
 };
 
@@ -37,4 +36,5 @@ export const mainTitleContainerStyle: React.CSSProperties = {
     flexDirection: "column",
     width: "100%",
     justifyContent: "center",
+    padding: "10px 135px",
 };
