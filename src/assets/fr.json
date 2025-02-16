@@ -197,7 +197,7 @@
                 "Création et configuration des jobs Jenkins pour chaque étape du cycle (build, test, déploiement).",
                 "Surveillance des logs et des métriques de pipeline pour garantir un processus fluide et sans erreurs."
             ],
-            "images": ["Pixy1.png"]
+            "images": ["jenkins1.png", "jenkins2.png"]
           }
         ]
     }

@@ -3,19 +3,22 @@ import { ProjectsListStyle } from "@/styles";
 import { ProjectDisplayer, ProjectDisplayerProps } from "./ProjectDisplayer";
 
 export type ProjectsListProps = {
+    pathname:string,
     projects: ProjectDisplayerProps[]
 };
 
 export const ProjectsList = ({
+    pathname,
     projects
 }: ProjectsListProps) => {
     return (
-        <div style={ProjectsListStyle}>
+        <div key={`projects-${pathname}`} style={ProjectsListStyle}>
             {projects.map((project, index) => (
                 <>
                     <ProjectDisplayer 
                         key={`project-container-${project.title}-${index}`}
                         title={project.title} 
+                        pathname={pathname}
                         description={project.description} 
                         technologies={project.technologies} 
                         fonctionnalitees_principale={project.fonctionnalitees_principale} 

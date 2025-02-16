@@ -1,17 +1,13 @@
 "use client";
 
-import { Header, MainTitle } from "@/components";
-import { useLanguageDetection } from "@/hook";
-import { mainStyle } from "@/styles";
+import { Header, MainDisplayer } from "@/components";
 
 export default function Applicatif() {
-    const { t } = useLanguageDetection();
     return (
         <>
             <Header />
-            <main style={mainStyle}>
-                <MainTitle title={t("titres.applicatif")} />
-            </main>
+            <MainDisplayer />
         </>
     );
 }
+  

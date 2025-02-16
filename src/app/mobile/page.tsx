@@ -16,16 +16,17 @@ export default function Mobile() {
             <Header />
             <main style={mainStyle}>
                 <MainTitle title={t("titres.mobile")} />
-                <div style={ProjectsListStyle}>
+                <div key={"Projects-mobile"} style={ProjectsListStyle}>
                     {projects.map((project,index) => 
                     <>
                         <MobileProjectDisplayer 
-                        key={`mobile-${project.title}`}
-                        title={project.title} 
-                        description={project.description} 
-                        technologies={project.technologies} 
-                        fonctionnalitees_principale={project.fonctionnalitees_principale} 
-                        images={project.images} />
+                            key={`mobile-${project.title}`}
+                            pathname={"mobile"}
+                            title={project.title} 
+                            description={project.description} 
+                            technologies={project.technologies} 
+                            fonctionnalitees_principale={project.fonctionnalitees_principale} 
+                            images={project.images} />
                         <Image
                             key={`seperator-project-${project.title}-${index}`}
                             src={"/projectSeparator.png"}
