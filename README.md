@@ -1,26 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mon Portfolio - Mauritius Loïc
 
-## Getting Started
+Welcome to my portfolio developed with Next.js!
 
-First, run the development server:
+## Description
 
+This portfolio is a summary of my knowledge acquired throughout my professional and personal journey in the field of technology. It showcases my completed projects, technical skills, and provides a contact page.<br />
+The goal of this portfolio is to provide a clear and interactive interface to display my projects and expertise.
+
+
+## Fonctionnalités
+
+- **Home Page**: An introduction with my skills, values, and a summary of my recent projects.
+- **Project Pages**: Multiple pages displaying a list of projects I've worked on, including details such as descriptions, technologies used, key features, and images of the projects.
+- **Multilingual**: The website is available in multiple languages (e.g., English and French), thanks to the integration of i18next.
+
+## Technologies utilisées
+
+- **Next.js**: React framework for server-side rendering (SSR) and static site generation (SSG).
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: A superset of JavaScript that allows using static types for better maintainability.
+- **i18next**: A library for managing translations and localization of content.
+- **Next Image**: Image optimization for better performance.
+- **Google Fonts**: Custom fonts used for better typography design (Jacques Francois and Karla).
+
+## Installation
+
+1. Clone this repository to your local machine :
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/LoicMauritius/Portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project folder :
+```bash
+cd portfolio
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Install the dependencies :
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Start the development server :
+```bash
+npm run dev
+```
 
-## Learn More
+## Structure du projet
+
+```bash
+portfolio/
+│
+├── public/               # Static files containing images
+├── src/                  # Source directory containing the main files of the application
+│   ├── app/              # Main pages of the web application
+│   ├── assets/           # Folder containing translation files (French and English)
+│   ├── components/       # Application-specific components
+│   ├── constants/        # Constants related to the application
+│   ├── context/          # Application contexts
+│   ├── hook/             # Custom hooks
+│   ├── styles/           # Styles used across the site
+│   └── utils/            # Utility functions, custom hooks, etc.
+|
+├── package.json          # Dependencies and scripts for the project
+├── package-lock.json     # Locks the versions of dependencies
+├── tsconfig.json         # TypeScript configuration
+└── next.config.js        # Next.js configuration
+```
+
+## Auteurs et Contribution
+
+**Main Author**: Mauritius Loïc
+
+## Learn More about Next.js
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -28,9 +79,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
