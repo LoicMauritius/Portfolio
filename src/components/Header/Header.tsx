@@ -1,15 +1,19 @@
+"use client";
+
+import { NAVBUTTONS } from "@/constants";
 import { NavBar } from "./NavBar";
 import { headerStyle } from "@/styles";
+import { usePathname } from "next/navigation";
 
-type HeaderProps = {
-    navButton: string[];
-    activeButton: string; 
-};
+export const Header = () => {
+    const nav = NAVBUTTONS();
+    const activeButton = usePathname().replace(/^\/+/, '');
 
-export const Header = ({ navButton, activeButton }: HeaderProps) => {
+    console.log("Active button: ", activeButton)
+
     return (
         <header style={headerStyle}>
-            <NavBar navButton={navButton} activeButton={activeButton} />
+            <NavBar navButton={nav} activeButton={activeButton} />
         </header>
     );
 };

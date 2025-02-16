@@ -5,7 +5,7 @@ export const accueilContainerStyle: React.CSSProperties = {
     flexDirection: "row",
     height: "100%",
     width: "100%",
-    padding: "20px 50px",
+    padding: "20px 150px",
     justifyContent: "center",
 };
 
@@ -43,6 +43,7 @@ export const titleStyle: React.CSSProperties = {
     fontFamily: theme.fonts.jacques,
     fontSize: theme.sizes.h1,
     fontWeight: 400,
+    margin: 0,
 };
 
 export const subTitleStyle: React.CSSProperties = {

@@ -1,7 +1,17 @@
+"use client";
+
+import { Header, MainTitle } from "@/components";
+import { useLanguageDetection } from "@/hook";
+import { mainStyle } from "@/styles";
+
 export default function Contact() {
-    return (
-      <main>
-        <h1>Contact</h1>
-      </main>
-    );
+    const { t } = useLanguageDetection();
+      return (
+          <>
+              <Header />
+              <main style={mainStyle}>
+                  <MainTitle title={t("titres.contact")} />
+              </main>
+          </>
+      );
 }

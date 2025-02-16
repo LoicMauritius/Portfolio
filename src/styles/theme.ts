@@ -1,4 +1,4 @@
-import { IBM_Plex_Mono, Jacques_Francois} from "next/font/google";
+import { Karla, Jacques_Francois} from "next/font/google";
 
 const jacquesFrancois = Jacques_Francois({
     weight: ['400'],
@@ -6,9 +6,9 @@ const jacquesFrancois = Jacques_Francois({
     subsets: ["latin"],
 });
 
-const IBMPlexMono = IBM_Plex_Mono({
-    weight: ['400'],
-    variable: "--font-roboto-mono",
+const IBMPlexMono = Karla({
+    weight: ['300','400','600'],
+    variable: "--font-karla-mono",
     subsets: ['latin'],
     display: 'swap',
 });
@@ -41,9 +41,10 @@ class Theme {
 
     // 🔤 Tailles de texte
     public readonly sizes = {
-        h1: "70px",
+        h1: "75px",
         h2: "48px",
-        h3: "24px",
+        h3: "38px",
+        nav: "24px",
         text: "20px",
     };
 

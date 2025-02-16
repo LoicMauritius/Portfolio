@@ -1,0 +1,1 @@
+export { useLanguageDetection } from './translation';
