@@ -1,9 +1,7 @@
-// RootLayout.tsx - Composant Serveur
-import { Header } from "@/components";
 import { globalStyle, bodyStyle } from "@/styles";
 import type { Metadata } from "next";
 
-// Ajout du layout avec gestion de la langue côté client
+
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
